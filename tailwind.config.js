@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       colors: {
         header: {
-          100: '#16454E'
+          100: '#16454E',
+          200: '#676767'
         },
         btnHover: '#1F5A65'
       },
