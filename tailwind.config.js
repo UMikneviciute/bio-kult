@@ -9,7 +9,8 @@ module.exports = {
           100: '#16454E',
           200: '#676767'
         },
-        btnHover: '#1F5A65'
+        btnHover: '#1F5A65',
+        productBg: '#f2f1f0'
       },
 
       fontFamily: {
