@@ -10,7 +10,7 @@ module.exports = {
           200: '#676767'
         },
         btnHover: '#1F5A65',
-        productBg: '#f2f1f0'
+        grayBg: '#f2f1f0'
       },
 
       fontFamily: {
