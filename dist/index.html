@@ -12,32 +12,36 @@
 </head>
 <body class="w-[120rem]">
     <!-- header -->
-    <header class="max-w-full">
-        <div class="flex">
-            <h3 class="text-header-100 text-[2.06rem] ml-80 mr-20 my-6 font-sora font-bold">SVEIKAS žarnynas</h3>
-            <nav class="my-10 w-[44rem] font-sora font-normal">
-                <ul class="text-black text-[0.875rem] flex justify-around">
-                    <li>
-                        <a href="#">APIE ŽARNYNĄ</a>
-                        <i class="bi bi-chevron-compact-down"></i>
-                    </li>
-                    <li>
-                        <a href="#">APIE BIO-KULT</a>
-                        <i class="bi bi-chevron-compact-down"></i>
-                    </li>
-                    <li>
-                        <a href="#">APIE LEPICOL</a>
-                        <i class="bi bi-chevron-compact-down"></i>
-                    </li>
-                    <li>
-                        <a href="#">APIE GAMINTOJĄ</a>
-                    </li>
-                    <li>
-                        <a href="#">STRAIPSNIAI</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="mr-80 my-7 ml-4">
+    <header>
+        <div class="flex w-[83rem] mx-[18rem] my-6">
+            <div class="text-header-100 text-3xl font-sora font-bold mr-28">
+                <h3 class=" w-80">SVEIKAS žarnynas</h3>
+            </div>
+            <div class="flex items-center">
+                <nav class="w-[44rem] font-sora font-normal">
+                    <ul class="text-black text-[0.875rem] flex justify-between">
+                        <li>
+                            <a href="#">APIE ŽARNYNĄ</a>
+                            <i class="bi bi-chevron-compact-down"></i>
+                        </li>
+                        <li>
+                            <a href="#">APIE BIO-KULT</a>
+                            <i class="bi bi-chevron-compact-down"></i>
+                        </li>
+                        <li>
+                            <a href="#">APIE LEPICOL</a>
+                            <i class="bi bi-chevron-compact-down"></i>
+                        </li>
+                        <li>
+                            <a href="#">APIE GAMINTOJĄ</a>
+                        </li>
+                        <li>
+                            <a href="#">STRAIPSNIAI</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="ml-9">
                 <i class="bi bi-search text-black text-[1.375rem] mr-4"></i>
                 <button class="bg-header-100 hover:bg-btnHover text-white text-[1rem] rounded-full font-roboto font-medium w-28 h-10">PIRKTI &gt</button>
             </div>
@@ -45,28 +49,32 @@
     </header>
     <!-- header -->
     <!-- hero -->
-    <main class="bg-gradient-to-r from-[#4d8ac6] to-[#219fd2] flex">
-        <div class="ml-80 mt-32 mb-9 w-[30rem]">
-            <img src="./img/logo-bio-cult-white.svg" alt="bio-kult logo">
-            <div class="text-white">
-                <p class="font-sora font-normal leading-tight text-[2.5rem] mt-10">Moksliniais tyrimais paremti gyvųjų bakterijų kompleksai</p>
+    <main class="geltonas bg-gradient-to-r from-[#4d8ac6] to-[#219fd2]">
+        <div class="relative rudas flex w-[83rem] mx-[18rem]">
+            <div class="violetinis mt-32 mb-9 w-[30rem] text-white">
+                <div>
+                    <img src="./img/logo-bio-cult-white.svg" alt="bio-kult logo">
+                    <p class="font-sora font-normal leading-tight text-[2.5rem] mt-10">Moksliniais tyrimais paremti gyvųjų bakterijų kompleksai</p>
+                </div>
                 <div class="flex mt-14">
                     <p class="font-roboto font-medium text-base mr-5 pt-2">Daugiau apie Bio-kult</p>
                     <button class="text-[#18464f] font-extrabold bg-white rounded-full w-10 h-10 hover:bg-btnHover hover:text-white">&gt</button>
                 </div>
-                <p class="font-roboto font-normal text-[0.8rem] mt-24">Maisto papildas</p>
+                <div>
+                    <p class="font-roboto font-normal text-[0.8rem] mt-24">Maisto papildas</p>
+                </div>
             </div>
-        </div>
-        <div>
-            <img class="w-full h-auto relative right-36" src="./img/petals.svg" alt="petals in background">
-            <img class="absolute top-28 right-80" src="./img/produktai.png" alt="bio-kult products">
-            <img class="absolute top-1/2 right-80 mt-2" src="./img/ellipse.svg" alt="">
-            <img class="absolute bottom-1/2 right-80" src="./img/ellipse2.svg" alt="">
+            <div class="baltas">
+                <img class="absolute left-60" src="./img/petals.svg" alt="petals in background">
+                <img class="absolute right-5" src="./img/produktai.png" alt="bio-kult products">
+                <img class="absolute top-1/2 right-6" src="./img/ellipse.svg" alt="">
+                <img class="absolute bottom-1/2 right-6 mb-2" src="./img/ellipse2.svg" alt="">
+            </div> 
         </div>
     </main>
     <!-- hero -->
     <!-- main content -->
-    <div class="raudonas mr-80 ml-80 mt-20 w-[82rem] flex">
+    <div class="raudonas w-[83rem] mx-[18rem] mt-20 flex">
         <div class="melynas mr-3 w-1/2">
             <div class="zalias">
                 <h4 class="font-sora font-semibold text-header-200 mb-5 text-2xl">Kaip palaikyti sklandų žarnyno darbą?</h4>
@@ -148,8 +156,8 @@
     </div>
     <!-- main content -->
     <!-- products -->
-        <div class="w-full bg-grayBg">
-            <div class="geltona flex w-[82rem] mx-80 pt-20 pb-16">
+        <div class="bg-grayBg">
+            <div class="geltona flex w-[83rem] mx-[18rem] pt-20 pb-16">
                 <div class="juoda w-1/2">
                     <div class="pilka">
                         <h4 class="text-header-200 text-2xl font-sora font-semibold mb-5">Produktai</h4>
@@ -195,7 +203,7 @@
     <!-- products -->
     <!-- articles -->
     <div>
-        <div class="w-[82rem] mx-80 pt-20">
+        <div class="w-[83rem] mx-[18rem] pt-20">
             <div>
                 <h4 class="text-header-200 text-2xl font-sora font-semibold mb-11">Straipsniai</h4>
             </div>
@@ -235,7 +243,7 @@
     <!-- articles -->
     <!-- purchase -->
     <div class=" bg-grayBg">
-        <div class="w-[82rem] mx-80 py-10">
+        <div class="w-[83rem] mx-[18rem] py-10">
             <div class="flex items-center">
                 <h4 class="text-header-200 text-2xl font-sora font-semibold mr-72">Kur įsigyti?</h4>
                 <div class="">
@@ -250,26 +258,23 @@
     </div>
     <!-- purchase -->
     <!-- footer -->
-    <footer>
-        <div>
-            <div>
-                <p></p>
+    <footer class="bg-header-100 text-white font-roboto ">
+        <div class="w-[83rem] mx-[18rem] pt-11 pb-6">
+            <div class="">
+                <p class="text-center text-sm font-normal">UAB ENTAFARMA Plius</p>
             </div>
-            <div>
-                <p><a href=""></a></p>
-                <p><a href=""></a></p>
-                <p><a href=""></a></p>
-                <p><a href=""></a></p>
+            <div class="mt-9 mb-14 font-light text-sm flex justify-center">
+                <p class="border-r-2 border-inFooter pr-7"><a href="#">Klonėnų vs. 1, LT-19156 Širvintų r. sav.</a></p>
+                <p class="border-r-2 border-inFooter pr-7 ml-7"><a href="tel:+37064202000">tel.: +370 642 02000</a></p>
+                <p class="border-r-2 border-inFooter pr-7  ml-7"><a href="fax:+37038233009">faks.: +370 382 33009</a></p>
+                <p class="ml-7"><a href="mailto:info@vitabiotics.lt">el.p.: info@vitabiotics.lt</a></p>
             </div>
-            <div>
-                <p><a href=""></a></p>
-                <p><a href=""></a></p>
+            <div class="font-normal text-[0.6rem] flex justify-between">
+                <p>© 2023 All Rights Reserved. Protexin. <a href="#">Privatumo politika</a></p>
+                <p><a href="#">Svetainių kūrimas: Daisoras</a></p>
             </div>
         </div>
     </footer>
     <!-- footer -->
-    
-        
-    
 </body>
 </html>
