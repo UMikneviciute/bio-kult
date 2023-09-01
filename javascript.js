@@ -1,5 +1,17 @@
 const hero1 = document.querySelector('.hero1');
 const hero2 = document.querySelector('.hero2');
+const heroBtn1 = document.querySelector('.heroB');
+const heroBtn2 = document.querySelector('.heroP');
+
+heroBtn1.addEventListener('click', () => {
+    hero1.classList.toggle('hidden');
+    hero2.classList.toggle('hidden');
+});
+
+heroBtn2.addEventListener('click', () => {
+    hero1.classList.toggle('hidden');
+    hero2.classList.toggle('hidden');
+});
 
 const toggleHero = () => {
   hero1.classList.toggle('hidden');
