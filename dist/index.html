@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./output.css">
+    <title>bio-kult</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Sora:wght@400;500;600&display=swap" rel="stylesheet">
-    <title>bio-kult</title>
+    <link rel="stylesheet" href="./output.css">
+    <script src="/javascript.js" defer></script>
 </head>
 <body class="w-[120rem]">
     <!-- header -->
@@ -24,10 +25,15 @@
                                 <img class="ml-2" src="./img/path.svg">
                             </button>
                         </li>
-                        <li>
+                        <li class="dropdown relative">
                             <button class="flex items-center">APIE BIO-KULT
                                 <img class="ml-2" src="./img/path.svg">
                             </button>
+                            <ul class="dropdown-list absolute w-56">
+                                <li class="hover:text-btnHover"><a href="#">Bio-Kult Every day</a></li>
+                                <li><a href="#">Bio-Kult Migrea</a></li>
+                                <li><a href="#">Bio-Kult Pregnea</a></li>
+                            </ul>
                         </li>
                         <li>
                             <button class="flex items-center">APIE LEPICOL
@@ -50,8 +56,8 @@
         </div>
     </header>
     <!-- header -->
-    <!-- hero -->
-    <main class="geltonas bg-gradient-to-r from-[#4d8ac6] to-[#219fd2]">
+    <!-- hero1 -->
+    <main class="hero1 bg-gradient-to-r from-[#4d8ac6] to-[#219fd2]">
         <div class="relative rudas flex w-[83rem] mx-[18rem]">
             <div class="violetinis mt-32 mb-9 w-[30rem] text-white">
                 <div>
@@ -74,7 +80,32 @@
             </div> 
         </div>
     </main>
-    <!-- hero -->
+    <!-- hero1 -->
+    <!-- hero2 -->
+    <main class="hero2 bg-gradient-to-r from-[#eab1c0] to-[#efbbc8] hidden">
+        <div class="relative rudas flex w-[83rem] mx-[18rem]">
+            <div class="violetinis mt-16 mb-9 w-[30rem] text-header-100">
+                <div>
+                    <img src="./img/lepicolLogo.png">
+                    <p class="font-sora font-normal text-[2.5rem] mt-3 w-[32rem]">GERA JAUSTIS LENGVAI!</p>
+                    <p class="font-sora font-normal text-3xl mt-2">Natūralios kilmės medžiagų kompleksas lengvai savijautai – virškinimui ir žarnynui!</p>
+                </div>
+                <div class="flex mt-14">
+                    <p class="font-roboto font-medium text-base mr-5 pt-2">Daugiau apie Bio-kult</p>
+                    <button class="text-white font-extrabold bg-header-100 rounded-full w-10 h-10 hover:bg-btnHover">&gt</button>
+                </div>
+                <div>
+                    <p class="font-roboto font-normal text-[0.8rem] mt-24">Maisto papildas</p>
+                </div>
+            </div>
+            <div class="baltas">
+                <img class="absolute right-14 top-20" src="./img/lepicolHero.png" alt="bio-kult products">
+                <img class="absolute top-1/2 right-6" src="./img/ellipse2.svg">
+                <img class="absolute bottom-1/2 right-6 mb-2" src="./img/ellipse.svg">
+            </div> 
+        </div>
+    </main>
+    <!-- hero2 -->
     <!-- main content -->
     <div class="raudonas w-[83rem] mx-[18rem] mt-20 flex">
         <div class="melynas mr-3 w-1/2">
